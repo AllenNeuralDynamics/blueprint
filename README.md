@@ -3,6 +3,12 @@
 
 an interface-only repo describing standard interfaces to various instrument hardware.
 
+## Simulation via Stubs
+
+This library also provides a simulated "dummy" or [stub](https://en.wikipedia.org/wiki/Stub_(distributed_computing)) version of each interface enabling you to simulate higher-level behavior using the interface without raising errors.
+
+This is an alternative pattern to using [Mock](https://docs.python.org/3/library/unittest.mock.html) without requiring any boilerplate code.
+
 ## Libraries using Blueprint
 * TODO
 
