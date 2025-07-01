@@ -1,15 +1,12 @@
-# aind-python-library-template
+# blueprint
 [![License](https://img.shields.io/badge/license-MIT-brightgreen)](LICENSE)
 
+an interface-only repo describing standard interfaces to various instrument hardware.
 
-This is a repository template to quickly setup a python library project. This repository utilizes a tool called **uv** to handle all dependency and package management. For more information on this tool go to the [uv wiki](https://docs.astral.sh/uv/). 
+## Libraries using Blueprint
+* TODO
 
-##  Getting Started
-
-- To use this template, click the green ``Use this template`` button and ``Create new repository``.
-- [Install uv](https://docs.astral.sh/uv/getting-started/installation/)
-
-## Tools
+## Development
 
 ### Package/Project Management 
 
