@@ -1,4 +1,5 @@
-# blueprint
+![](./assets/pics/blueprint_logo.png)
+
 [![License](https://img.shields.io/badge/license-MIT-brightgreen)](LICENSE)
 
 an interface-only repo describing standard interfaces to various instrument hardware.
