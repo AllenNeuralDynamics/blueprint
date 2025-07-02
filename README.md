@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="" src="./assets/pics/blueprint_logo.png" width="55%">
+  <img alt="" src="./assets/pics/logo.png" width="55%">
 </p>
 
 [![License](https://img.shields.io/badge/license-MIT-brightgreen)](LICENSE)
