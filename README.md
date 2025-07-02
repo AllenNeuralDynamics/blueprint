@@ -6,14 +6,35 @@
 
 an interface-only repo describing standard interfaces to various instrument hardware.
 
+
+## Why use blueprints
+_blueprints_ defines standard interfaces to numerous types of devices: valves, syringe pumps, multi-axis stages, lasers, etc.
+Think of it as a collection of abstract base classes.
+
+Writing code that connects to any blueprints-derived driver means it can be swapped out for _any_ other driver that also derives from blueprints.
+
+## When to use blueprints
+Writing code that derives from an interface defined in blueprints maximizes its reusability across projects.
+
+Here are some canonical use cases:
+* You're writing a driver for a piece of hardware, and you'd like to create an interface for it that's common to similar device drivers.
+* You're creating a generic GUI for a hardware device type, and you want it to be usable across as wide a range of similar devices as possible.
+
+
 ## Simulation via Stubs
 
 This library also provides a simulated "dummy" or [stub](https://en.wikipedia.org/wiki/Stub_(distributed_computing)) version of each interface enabling you to simulate higher-level behavior using the interface without raising errors.
 
 This is an alternative pattern to using [Mock](https://docs.python.org/3/library/unittest.mock.html) without requiring any boilerplate code.
+Just import the simulated device.
 
-## Libraries using Blueprint
-* TODO
+## Projects using blueprints
+### Instruments
+* [AllenNeuralDynamics/brainwasher](https://github.com/AllenNeuralDynamics/brainwasher)
+
+### Drivers
+* [TODO]()
+* [TODO]()
 
 ## Development
 
